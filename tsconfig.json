@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+      "module": "commonjs",
+      "target": "es2017",
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "outDir": "dist",
+      "typeRoots": [
+        "node_modules/@types"
+      ],
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "noImplicitAny": true
+  }
+}

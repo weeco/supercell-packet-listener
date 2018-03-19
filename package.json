@@ -1,0 +1,33 @@
+{
+  "name": "supercell-packet-listener",
+  "version": "1.0.0",
+  "description": "A passive proxy which shows you packet metadata for the mobile games Clash Royale and Brawl Stars",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "tslint --project tsconfig.json --format stylish src/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weeco/supercell-packet-listener.git"
+  },
+  "keywords": [],
+  "author": "Weeco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weeco/supercell-packet-listener/issues"
+  },
+  "homepage": "https://github.com/weeco/supercell-packet-listener#readme",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "joi": "^13.1.2",
+    "native-dns": "^0.7.0",
+    "winston": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^8.9.5",
+    "@types/winston": "^2.3.8",
+    "tslint": "^5.9.1",
+    "tslint-microsoft-contrib": "^5.0.3"
+  }
+}

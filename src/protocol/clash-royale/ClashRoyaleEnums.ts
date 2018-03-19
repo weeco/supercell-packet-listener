@@ -1,0 +1,52 @@
+/**
+ * Packet IDs mapped by name
+ */
+export enum MessageIds {
+  // Server messages
+  AllianceData = 26550,
+  AllianceLocalRankingList = 26973,
+  AllianceOnlineStatusUpdated = 20207,
+  AllianceRankingList = 25105,
+  AllianceStream = 24719,
+  AllianceStreamEntry = 21075,
+  AllianceStreamRemoved = 24318,
+  AvailableServerCommand = 23394,
+  AvatarInGameStatusUpdated = 20206,
+  BattleReportStream = 20032,
+  CancelChallengeDone = 24124,
+  Disconnected = 25892,
+  HomeBattleReplayData = 25412,
+  JoinableAllianceList = 25445,
+  KeepAliveOk = 24135,
+  LoginFailed = 20103,
+  LoginOk = 22280,
+  OwnHomeData = 28502,
+  RoyaleTVContent = 20073,
+  ServerHello = 20100,
+  ShutdownStarted = 20161,
+
+  // Client messages
+  AskForAllianceData = 10609,
+  AskForAllianceRankingList = 14171,
+  AskForAvatarLocalRanking = 11639,
+  AskForAvatarRankingList = 11149,
+  AskForAvatarStream = 14405,
+  AskForBattleReplayStream = 15827,
+  AskForJoinableAlliancesList = 10857,
+  AskForLiveBattle = 16604,
+  AskForProfile = 19860,
+  AskForTVContent = 10185,
+  AskForTournamentData = 10575,
+  ClientCapabilities = 10107,
+  ClientHello = 10100,
+  DonateAllianceUnit = 14310,
+  EndClientTurn = 11688,
+  HomeBattleReplay = 15075,
+  InboxOpened = 10905,
+  JoinAlliance = 16190,
+  KeepAlive = 19911,
+  LeaveAlliance = 15985,
+  Login = 10101,
+  SearchAlliances = 10949,
+  VisitHome = 19860
+}
