@@ -19,12 +19,14 @@
   },
   "homepage": "https://github.com/weeco/supercell-packet-listener#readme",
   "dependencies": {
+    "bytebuffer": "^5.0.1",
     "dotenv": "^5.0.1",
     "joi": "^13.1.2",
     "native-dns": "^0.7.0",
     "winston": "^2.4.1"
   },
   "devDependencies": {
+    "@types/bytebuffer": "^5.0.37",
     "@types/node": "^8.9.5",
     "@types/winston": "^2.3.8",
     "tslint": "^5.9.1",
