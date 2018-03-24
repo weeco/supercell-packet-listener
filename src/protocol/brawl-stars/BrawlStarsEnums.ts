@@ -84,5 +84,6 @@ export enum MessageIds {
   AvatarRankingList = 24403,
   ChangeNameFailed = 20300,
   BannedFromMatch = 24115, // Idle disconnect / banned from battle
-  AllianceMember = 24308
+  AllianceMember = 24308,
+  ServerHello = 20100
 }
